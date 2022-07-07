@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Roboto:wght@100;400&display=swap");
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #0091e6;
+  display: flex;
+  justify-content: space-between; }
+  nav .logo {
+    margin-top: 10px;
+    margin-left: 10px; }
+  nav ul {
+    margin-top: 30px; }
+    nav ul :hover {
+      background: #9b2a2a; }
+      nav ul :hover a {
+        color: white; }
+    nav ul li {
+      list-style-type: none;
+      display: inline;
+      background: #ffffff;
+      color: #ac0000;
+      margin: .5em;
+      padding: 1em;
+      text-transform: uppercase;
+      border-radius: 1em;
+      text-align: center; }
+      nav ul li a {
+        text-decoration: none; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  footer .footer-titulo {
+    text-align: center;
+    font-size: 1.6em;
+    background-color: #4ee4ff;
+    padding: 1em;
+    margin-left: 10em;
+    margin-right: 10em; }
+  footer .redes {
+    background-color: blue;
+    display: flex;
+    justify-content: center; }
+    footer .redes ul {
+      background-color: #4ee4ff;
+      display: flex;
+      justify-content: space-between;
+      width: 75%; }
+      footer .redes ul li {
+        list-style: none;
+        padding: 2em;
+        background-color: #F3F0F0;
+        border-radius: 50%;
+        margin: 1em; }
+
+#galeria {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  #galeria div {
+    margin: 0.5em;
+    list-style-type: none;
+    background-color: white;
+    padding: 0.5em;
+    align-items: center;
+    display: grid; }
+    #galeria div a img {
+      width: 100%; }
+      #galeria div a img :hover {
+        transform: scale(1.2); }

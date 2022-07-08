@@ -69,3 +69,18 @@ footer {
       width: 100%; }
       #galeria div a img :hover {
         transform: scale(1.2); }
+
+.titulo-galeria {
+  background-color: #0091e6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3em solid red;
+  justify-content: space-around;
+  align-items: center; }
+  .titulo-galeria img {
+    width: 150px; }
+  .titulo-galeria .top {
+    background-color: #F3F0F0;
+    border: .5em solid black;
+    padding: 1em; }

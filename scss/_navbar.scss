@@ -17,19 +17,22 @@ nav{
                 color: rgb(255, 255, 255);
             }
         }
-        li{
-            list-style-type: none;
-            display: inline;
-            background: #ffffff ;
-            color:rgb(172, 0, 0);
-            margin: .5em;
-            padding: 1em;
-            text-transform: uppercase;
-            border-radius: 1em;
-            text-align: center;
-            a{
-                text-decoration: none;
-            }
-        }
+        
+    }
+}
+
+.button{
+    list-style-type: none;
+    display: inline;
+    background: #ffffff ;
+    color:rgb(172, 0, 0);
+    margin: .5em;
+    padding: 1em;
+    text-transform: uppercase;
+    border-radius: 1em;
+    text-align: center;
+    text-decoration: none;
+    a{
+        text-decoration: none;
     }
 }

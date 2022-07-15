@@ -1,0 +1,26 @@
+//mixins
+@mixin texto($size,$line-height,$color){
+	font-size: $size;
+	line-height: $line-height;
+	color:$color;
+	padding: 4px;
+}
+
+@mixin d-flex($justify,$align){
+	display: flex;
+	justify-content: $justify;
+	align-items:$align
+}
+
+//maps
+$paleta:(
+    'uno': rgb(176, 220, 235),
+    'dos': rgb(66, 54, 235),
+    'tres': rgb(15, 140, 182),
+    'cuatro': rgb(0, 17, 255),
+    'cinco': rgb(32, 190, 156),
+    'seis': rgb(0, 27, 117),
+    );
+
+    
+

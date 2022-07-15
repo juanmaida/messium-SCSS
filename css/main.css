@@ -14,18 +14,20 @@ nav {
       background: #9b2a2a; }
       nav ul :hover a {
         color: white; }
-    nav ul li {
-      list-style-type: none;
-      display: inline;
-      background: #ffffff;
-      color: #ac0000;
-      margin: .5em;
-      padding: 1em;
-      text-transform: uppercase;
-      border-radius: 1em;
-      text-align: center; }
-      nav ul li a {
-        text-decoration: none; }
+
+.button {
+  list-style-type: none;
+  display: inline;
+  background: #ffffff;
+  color: #ac0000;
+  margin: .5em;
+  padding: 1em;
+  text-transform: uppercase;
+  border-radius: 1em;
+  text-align: center;
+  text-decoration: none; }
+  .button a {
+    text-decoration: none; }
 
 footer {
   display: flex;
@@ -67,8 +69,11 @@ footer {
     display: grid; }
     #galeria div a img {
       width: 100%; }
-      #galeria div a img :hover {
+      #galeria div a img:hover {
         transform: scale(1.2); }
+
+.soft {
+  background-color: #b0dceb; }
 
 .titulo-galeria {
   background-color: #0091e6;
@@ -84,3 +89,20 @@ footer {
     background-color: #F3F0F0;
     border: .5em solid black;
     padding: 1em; }
+
+.strong {
+  background-color: #4236eb; }
+
+p {
+  font-size: 1em;
+  line-height: 1em;
+  color: #130101;
+  padding: 4px; }
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.line {
+  border: .05em solid black; }

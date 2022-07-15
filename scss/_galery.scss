@@ -12,9 +12,13 @@
         display: grid;
         a img{
             width: 100%;
-            :hover{
+            &:hover{
                 transform: scale(1.2);
             }
         }
     }
+}
+
+.soft{
+    background-color: map-get($map:$paleta, $key: 'uno' );
 }
